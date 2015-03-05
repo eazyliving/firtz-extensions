@@ -1,0 +1,16 @@
+<div>
+   <a id='comment_{{@item.slug}}' onclick="loadDisqus(jQuery(this), '{{@item.guid}}', '{{@BASEURL}}{{@feedattr.slug}}/show/{{@item.slug}}');">
+    <check if="{{@singlepage==true && isset(@item)}}">
+		<false>
+			<p>
+			<div class="uk-button">
+				<button class="uk-button">
+				{{@dict_showcomments}}
+				</button>
+			</div>
+			</p>
+		</false>
+	</check>
+   </a>
+</div>
+ 
