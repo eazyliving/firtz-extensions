@@ -2,6 +2,10 @@
 
 function twoclick_episode($item) {
 
+global $main;
+
+if ($main->get('version')<2) return $item;
+
 $item['append'].="
 <div class='socialfoot-".$item['slug']."'></<div>
 <script type='text/javascript'>
@@ -30,3 +34,4 @@ return $item;
 
 }
 ?>
+
