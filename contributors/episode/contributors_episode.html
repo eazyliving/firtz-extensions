@@ -1,0 +1,24 @@
+<check if="{{isset(@item.contributors_data)}}">
+<h2>Teilnehmer</h2>
+	<repeat group="{{@item.contributors_data}}" value="{{@con}}" key="{{@nick}}">
+		{{@con.name}}<br>
+		<check if="{{@con.twitter}}">
+			<a class="uk-button" href="https://twitter.com/{{@con.twitter}}"><span class="fa fa-twitter"></span></a>
+		</check>
+		<check if="{{@con.adn}}">
+			<a class="uk-button" href="https://alpha.app.net/{{@con.adn}}"><span class="fa fa-adn"></span></a>
+		</check>
+		<check if="{{@con.mail}}">
+			<a class="uk-button" href="mailto:{{@con.mail}}"><span class="fa fa-envelope"></span></a>
+		</check>
+		<check if="{{@con.url}}">
+			<a class="uk-button" href="{{@con.url}}"><span class="fa fa-globe"></span></a>
+		</check>
+		
+		<check if="{{@con.flattr}}">
+			<iframe src="http://api.flattr.com/button/view/?user_id={{@con.flattr}}&amp;url={{@item.flattrlink | raw}}&amp;title={{@item.flattrtitle | raw}}&amp;popout=0&amp;button=compact" class="FlattrButton" width="110" height="20" frameborder="0" scrolling="no" border="0" marginheight="0" marginwidth="0" allowtransparency="true">
+								</iframe>
+		</check>
+		
+	</repeat>
+</check>
