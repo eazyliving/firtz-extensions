@@ -9,7 +9,7 @@ function contributors_episode($item) {
 	
 	$item['contributors_data'] = array();
 	foreach (explode(' ',$item['contributors']) as $con) {
-		
+		$condata = array();
 		$fh = fopen("ext/contributors/data/".$con.".cfg",'r');
 		$thisattr = "";
 		while (!(feof($fh))) {
@@ -27,6 +27,7 @@ function contributors_episode($item) {
 		
 		fclose($fh);
 		$item['contributors_data'][$con]=$condata;
+
 	}
 	
 	return $item;
