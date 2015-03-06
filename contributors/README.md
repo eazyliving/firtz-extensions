@@ -2,17 +2,20 @@
 
 Diese Erweiterung bringt Teilnehmer und ihre Daten in den firtz.
 
-Die Konfiguration ist ein wenig aufwändig, das liegt aber mehr an der Komplexität der Materie.
+Die Konfiguration ist ein wenig aufwÃ¤ndig, das liegt aber mehr an der KomplexitÃ¤t der Materie.
 
-Das ganze geht wie folgt: Extension installieren. Dort im Ordner data für jeden Teilnehmer eine Datei anlegen, z.B. eazy.cfg oder bernd_ahrend.cfg.
-In jede Episode nun mittels **contributors:** eine Zeile mit allen Teilnehmern hinzufügen:
+Das ganze geht wie folgt: Extension installieren. Dort im Ordner data fÃ¼r jeden Teilnehmer eine Datei anlegen, z.B. eazy.cfg oder bernd_ahrend.cfg.
+In jede Episode nun mittels **contributors:** eine Zeile mit allen Teilnehmern hinzufÃ¼gen:
 
-`contributors:
-eazy bernd_ahrend hans_dampf`
+```
+contributors:
+eazy bernd_ahrend hans_dampf
+```
 
 In der jeweiligen cfg stehen dann die Daten der Nutzer:
 
-`name:
+```
+name:
 Christian Bednarek
 
 twitter:
@@ -31,6 +34,7 @@ image:
 https://pbs.twimg.com/profile_images/2185128768/twit_400x400.png
 
 adn:
-eazyliving`
+eazyliving
+```
 
-Dieses Beispiel zeigt nun auch, was bisher möglich ist. Das template ist noch nicht schön, tut aber was es soll.
+Dieses Beispiel zeigt nun auch, was bisher mÃ¶glich ist. Das template ist noch nicht schÃ¶n, tut aber was es soll.
