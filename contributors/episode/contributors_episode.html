@@ -1,5 +1,5 @@
 <check if="{{isset(@item.contributors_data)}}">
-<h2>Teilnehmer</h2>
+<h2>{{@dict_contributors}}</h2>
 	<repeat group="{{@item.contributors_data}}" value="{{@con}}" key="{{@nick}}">
 		{{@con.name}}<br>
 		<check if="{{@con.twitter}}">
