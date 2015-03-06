@@ -7,13 +7,15 @@ Die Konfiguration ist ein wenig aufwändig, das liegt aber mehr an der Komplexit
 Das ganze geht wie folgt: Extension installieren. Dort im Ordner data für jeden Teilnehmer eine Datei anlegen, z.B. eazy.cfg oder bernd_ahrend.cfg.
 In jede Episode nun mittels **contributors:** eine Zeile mit allen Teilnehmern hinzufügen:
 
-```contributors:
+```
+contributors:
 eazy bernd_ahrend hans_dampf
 ```
 
 In der jeweiligen cfg stehen dann die Daten der Nutzer:
 
-```name:
+```
+name:
 Christian Bednarek
 
 twitter:
