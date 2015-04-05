@@ -10,7 +10,7 @@ function contributors_episode($item) {
 	$item['contributors_data'] = array();
 	foreach (explode(' ',$item['contributors']) as $con) {
 
-		$condata = array("name"=>"","twitter"=>"","mail"=>"","flattr"=>"","url"=>"","image"=>"","adn"=>"");
+		$condata = array();
 		if (!file_exists("ext/contributors/data/".$con.".cfg")) continue;
 
 
