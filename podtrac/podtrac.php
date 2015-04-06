@@ -10,15 +10,12 @@ function podtrac_episode($item) {
 		switch ($key) {
 		
 			case 'mp3':
-				$redir = 'mp3';
-				break;
-				
 			case 'm4a':
-				$redir = 'aac';
+			case 'ogg':
+				$redir=$key;
 				break;
 				
 			case 'opus':
-			case 'ogg':
 				$redir = 'ogg';
 				break;
 				
