@@ -4,7 +4,6 @@
 function podtrac_episode($item) {
 
 	global $main;
-	if ($main->get('version')<2) return $item;
 	
 	foreach ($item['audiofiles'] as $key=>$audio) {
 		$redir = '';
