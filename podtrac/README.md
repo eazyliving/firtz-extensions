@@ -1,2 +1,3 @@
-podtrac extension to change links for podtrac-tracking.
-no action required, no variables
+Podtrac extension to change links for podtrac-tracking.
+For this to work, you need a free account at podtrac.com.
+No other action required, no variables.
