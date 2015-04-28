@@ -10,8 +10,3 @@ shariff: adds social sharing buttons at the bottom of every episode
 contributors: adds contributors data to episodes
 
 embed: embed a player with single episode (slug or 'latest')
-
-adnthread: use a thread at app.net for discussions
-
-podtrac: change urls to get tracked by podtrac.com
-
