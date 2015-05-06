@@ -18,6 +18,9 @@ In der jeweiligen cfg stehen dann die Daten der Nutzer:
 name:
 Christian Bednarek
 
+description:
+was über mich in 1-2 Sätzen
+
 twitter:
 eazyliving
 
