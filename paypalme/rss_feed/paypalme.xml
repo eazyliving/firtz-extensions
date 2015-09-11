@@ -1,0 +1,2 @@
+
+<atom:link rel="payment" title="paypal.me" href="https://paypal.me/{{@extvars.paypalme.username}}"/>
